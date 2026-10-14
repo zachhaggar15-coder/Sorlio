@@ -9,7 +9,7 @@ interface Props {
 const { entry } = Astro.props;
 const { data } = entry;
 ---
-<li class="card">
+<li class="card" data-cat={data.category}>
   <p class="eyebrow">{CATEGORY_LABELS[data.category]}</p>
   <h3><a href={`/${entry.id}/`}>{data.title}</a></h3>
   <p>{data.description}</p>

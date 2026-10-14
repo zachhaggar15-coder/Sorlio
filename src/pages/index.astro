@@ -35,13 +35,28 @@ const orgLd = {
   jsonLd={[websiteLd, orgLd]}
 >
   <section class="hero">
-    <div class="wrap">
-      <p class="eyebrow">Guides to learning French</p>
-      <h1>Learn French by reading things you actually want to read</h1>
-      <p class="lede">
-        Honest guides to choosing French-learning apps, building a study routine and practising reading comprehension.
-        Published by the team behind Sorlio, an Android app for reading French with contextual vocabulary.
-      </p>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Guides to learning French</p>
+        <h1>Learn French by reading things you <em>actually</em> want to read</h1>
+        <p class="lede">
+          Honest guides to choosing French-learning apps, building a study routine and practising reading comprehension.
+          Published by the team behind Sorlio, an Android app for reading French with contextual vocabulary.
+        </p>
+        <div class="hero-actions">
+          <a class="btn-play" href={SITE.playStoreUrl} rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3l11 9-11 9z"/></svg>
+            Get Sorlio on Google Play
+          </a>
+          <a class="btn-quiet" href="/articles/">Browse the guides</a>
+        </div>
+      </div>
+      <figure class="reader" aria-label="Illustration of a French sentence with a tapped word">
+        <div class="reader-top"><span>Lecture · niveau A2</span><span class="reader-pill">Sorlio</span></div>
+        <p>Le dimanche, Claire part au <mark>marché</mark> avec son vélo.</p>
+        <div class="gloss"><strong>marché</strong><span>market: a place where people buy food</span></div>
+        <p class="reader-foot">Illustration only. Tap any word to look it up.</p>
+      </figure>
     </div>
   </section>
 

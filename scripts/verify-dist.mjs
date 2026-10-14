@@ -16,6 +16,9 @@ const EXPECTED_ARTICLES = [
   'learn-french-by-reading',
   'a2-french-reading-practice',
   'learn-french-with-news',
+  'how-to-stop-translating-french',
+  'french-short-stories-for-beginners',
+  'b1-french-reading-exercises',
 ];
 const EXPECTED_PAGES = ['/', '/articles/', '/about/', ...EXPECTED_ARTICLES.map((s) => `/${s}/`)];
 // External hosts that may legitimately be linked.
