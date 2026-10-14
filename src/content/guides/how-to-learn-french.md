@@ -9,6 +9,13 @@ updatedDate: 2026-10-14
 featured: true
 order: 50
 productClaimsVerified: false
+faq:
+  - question: "How long does it take to learn French?"
+    answer: "It depends on how many hours you study, what level you want and how often you practise. No reliable single figure applies to everyone, so set a level-based goal and check your progress."
+  - question: "Do I need a teacher to learn French on my own?"
+    answer: "Not for reading and vocabulary, but speaking and pronunciation improve faster with regular feedback from a tutor, a class or a conversation partner."
+  - question: "Which CEFR level should I aim for first?"
+    answer: "Most learners start by aiming for A2, where simple everyday conversations and short texts become manageable, and then move towards B1."
 sources:
   - label: "Council of Europe. Common European Framework of Reference for Languages (CEFR), and the Companion Volume (2020)."
     url: "https://www.coe.int/en/web/common-european-framework-reference-languages"

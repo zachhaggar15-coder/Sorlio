@@ -33,6 +33,19 @@ const published = data.publishedDate.toLocaleDateString('en-GB', dateFormat);
 const updated = data.updatedDate.toLocaleDateString('en-GB', dateFormat);
 const showUpdated = data.updatedDate.getTime() !== data.publishedDate.getTime();
 
+const faqLd =
+  data.faq.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: data.faq.map((f) => ({
+          '@type': 'Question',
+          name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: f.answer },
+        })),
+      }
+    : null;
+
 const articleLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -62,7 +75,7 @@ const breadcrumbLd = {
   path={path}
   ogType="article"
   current="guides"
-  jsonLd={[articleLd, breadcrumbLd]}
+  jsonLd={[articleLd, breadcrumbLd, ...(faqLd ? [faqLd] : [])]}
 >
   <div class="prose-wrap">
     <Breadcrumbs
@@ -95,6 +108,13 @@ const breadcrumbLd = {
         </p>
       </div>
 
+      {data.methodology && (
+        <aside class="method" aria-labelledby="method-title">
+          <p id="method-title" class="method-title">How this comparison was made</p>
+          <p>{data.methodology}</p>
+        </aside>
+      )}
+
       {tocHeadings.length > 1 && (
         <nav class="toc" aria-labelledby="toc-title">
           <p id="toc-title">In this guide</p>
@@ -109,6 +129,18 @@ const breadcrumbLd = {
       <div class="article-body">
         <Content />
       </div>
+
+      {data.faq.length > 0 && (
+        <section class="faq" aria-labelledby="faq-title">
+          <h2 id="faq-title">Frequently asked questions</h2>
+          {data.faq.map((f) => (
+            <div class="faq-item">
+              <h3>{f.question}</h3>
+              <p>{f.answer}</p>
+            </div>
+          ))}
+        </section>
+      )}
 
       {data.sources.length > 0 && (
         <section class="sources" aria-labelledby="sources-title">

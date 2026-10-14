@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+// Only records marked verified are shown. Unverified records never reach the page.
+const products = (await getCollection('products', ({ data }) => data.verified)).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name),
+);
+
+const fmt = (d: Date) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+<BaseLayout
+  title="French learning app directory"
+  description="Checked details of French-learning apps: platforms, free and paid access, and price model, each with its source and check date."
+  path="/app-directory/"
+  current="guides"
+>
+  <div class="prose-wrap">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'App directory' }]} />
+    <h1>French learning app directory</h1>
+    <p class="lede">Platforms, free access and paid access for the apps we compare, each with its official source and the date it was checked.</p>
+
+    {products.length === 0 ? (
+      <p class="note">Product details are being checked against official sources before they are listed here. Until then, please use each app's store page for current details.</p>
+    ) : (
+      <div class="table-scroll">
+        <table>
+          <caption>French-learning apps: checked details</caption>
+          <thead>
+            <tr>
+              <th scope="col">App</th>
+              <th scope="col">Platforms</th>
+              <th scope="col">Free access</th>
+              <th scope="col">Paid access</th>
+              <th scope="col">Price model</th>
+              <th scope="col">Checked</th>
+            </tr>
+          </thead>
+          <tbody>
+            {products.map((p) => (
+              <tr>
+                <th scope="row"><a href={p.data.sourceUrl} rel="noopener">{p.data.name}</a><br /><small>{p.data.developer}</small></th>
+                <td>{p.data.platforms}</td>
+                <td>{p.data.freeAccess}</td>
+                <td>{p.data.paidAccess}</td>
+                <td>{p.data.priceModel}</td>
+                <td>{fmt(p.data.checkedDate)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+  </div>
+</BaseLayout>

@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../lib/site';
+---
+<BaseLayout
+  title="Editorial policy"
+  description="How Sorlio Guides chooses topics, writes comparisons, checks facts, handles corrections and discloses its relationship with Sorlio."
+  path="/editorial-policy/"
+  current="about"
+>
+  <div class="prose-wrap">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About', href: '/about/' }, { label: 'Editorial policy' }]} />
+    <h1>Editorial policy</h1>
+    <p class="lede">How {SITE.name} decides what to publish, how comparisons are made, and how we handle mistakes.</p>
+
+    <h2>Our relationship with Sorlio</h2>
+    <p>
+      {SITE.name} is published by the makers of Sorlio, an Android app. We are not an independent review
+      organisation. Every guide that mentions Sorlio says so, and comparison guides state how they were made.
+    </p>
+
+    <h2>How topics are chosen</h2>
+    <p>
+      We write about questions learners actually ask, such as which kind of app suits them, how to read French at their
+      level, and how to use news or stories for practice. We do not publish articles that exist only to rank for a
+      product name without answering the question.
+    </p>
+
+    <h2>How comparisons are made</h2>
+    <ul>
+      <li>Comparisons use public information about each product, and the method is stated on the page.</li>
+      <li>We group products by learner need rather than publishing a single overall ranking.</li>
+      <li>We do not claim to have tested products or measured learning outcomes unless we have.</li>
+      <li>Where another product suits a learner better, the guide says so.</li>
+      <li>Prices and plan limits are shown only when they have been checked against an official source, with a date.</li>
+    </ul>
+
+    <h2>How facts are checked</h2>
+    <p>
+      Claims about learning are supported with references where we can give them accurately. Claims about products are
+      checked against official pages before publication where possible. Where a claim has not been checked, the guide
+      does not state it as fact, or it says the reader should check the current details.
+    </p>
+
+    <h2>Authors and reviewers</h2>
+    <p>
+      Guides are written by the Sorlio team. We do not list individual author biographies or qualifications, and we do
+      not claim linguistic review by a teacher or native speaker unless one has reviewed the text. If a named reviewer
+      joins the process, we will add their name and role only with their agreement.
+    </p>
+
+    <h2>Corrections and updates</h2>
+    <p>
+      Each guide shows its publication date and, where it has changed substantially, a last-updated date. If we find an
+      error, we correct it and update the date. If you spot a mistake, please tell us so we can fix it.
+    </p>
+
+    <h2>Advertising, affiliates and data</h2>
+    <p>
+      The site contains no affiliate links, advertising and tracking scripts. Links to Sorlio on Google Play are the only
+      links that lead to a product we publish. See the <a href="/about/">About and disclosure</a> page for more.
+    </p>
+  </div>
+</BaseLayout>

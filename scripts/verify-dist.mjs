@@ -21,7 +21,18 @@ const EXPECTED_ARTICLES = [
   'b1-french-reading-exercises',
   'check-your-french-reading-level',
 ];
-const EXPECTED_PAGES = ['/', '/articles/', '/about/', ...EXPECTED_ARTICLES.map((s) => `/${s}/`)];
+const EXPECTED_PAGES = [
+  '/',
+  '/articles/',
+  '/about/',
+  '/editorial-policy/',
+  '/reading-glossary/',
+  '/app-directory/',
+  '/topics/app-comparisons/',
+  '/topics/learning-method/',
+  '/topics/practice-resources/',
+  ...EXPECTED_ARTICLES.map((s) => `/${s}/`),
+];
 // External hosts that may legitimately be linked.
 const ALLOWED_EXTERNAL_HOSTS = ['play.google.com', 'www.duolingo.com', 'www.coe.int'];
 const FORBIDDEN_STRINGS = ['guides.sorlio.site', 'googletagmanager', 'google-analytics', 'fbq(', 'hotjar', 'TODO', 'lorem ipsum', 'PLACEHOLDER'];
@@ -141,6 +152,15 @@ for (const p of EXPECTED_PAGES) {
       // noopener only matters for links that open a new tab; none should do that without it.
       check(!anchor || !anchor[0].includes('target="_blank"') || /rel="[^"]*noopener/.test(anchor[0]), `${p} new-tab link to ${host} has rel="noopener"`);
     }
+  }
+
+  // FAQ: when a page has a visible FAQ, it must carry matching FAQPage data
+  if (html.includes('id="faq-title"')) {
+    const visibleItems = (html.match(/class="faq-item"/g) || []).length;
+    const faqBlock = html.match(/\{"@context":"https:\/\/schema\.org","@type":"FAQPage"[\s\S]*?<\/script>/);
+    const ldCount = faqBlock ? (faqBlock[0].match(/"@type":"Question"/g) || []).length : 0;
+    check(ldCount > 0, `${p} has FAQPage structured data for its visible FAQ`);
+    check(ldCount === visibleItems, `${p} FAQPage data (${ldCount}) matches visible FAQ items (${visibleItems})`);
   }
 
   // Article-specific content checks

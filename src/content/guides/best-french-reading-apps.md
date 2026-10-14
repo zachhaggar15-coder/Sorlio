@@ -9,10 +9,27 @@ updatedDate: 2026-10-14
 featured: true
 order: 10
 productClaimsVerified: false
+methodology: "Based on public product descriptions and general knowledge of each app's approach as of the publication date. We did not test each app, we did not measure learning outcomes, and we did not confirm current prices. Sorlio is our own app, so check every row against the official site before deciding."
+faq:
+  - question: "Which French reading app is best for complete beginners?"
+    answer: "It depends on how much French you can already read. Apps with parallel text and audio, or graded stories, usually suit true beginners better than tools built around your own imported texts."
+  - question: "Do I have to pay for a French reading app?"
+    answer: "Not always, but free access differs between products and changes over time. Check each product's store page or website for what is free and what needs a paid plan."
+  - question: "Can I read my own French texts in these apps?"
+    answer: "Some apps let you import articles or pages, while others focus on their own library. Check the current feature list for each app before you rely on importing."
 sources:
   - label: "Hu, M. and Nation, P. (2000). Unknown vocabulary density and reading comprehension. Reading in a Foreign Language, 13(1)."
   - label: "Nation, I.S.P. (2001). Learning Vocabulary in Another Language. Cambridge University Press."
 ---
+
+<aside class="verdict">
+<p>Quick verdict</p>
+<ul>
+<li><strong>Complete beginner:</strong> start with parallel text and audio, or graded stories.</li>
+<li><strong>Can read simple French:</strong> a tap-to-look-up tool with saved words, such as Sorlio, is a good fit.</li>
+<li><strong>Intermediate, with your own reading:</strong> an import-focused tool such as LingQ or Readlang.</li>
+</ul>
+</aside>
 
 ## What we mean by a reading app
 

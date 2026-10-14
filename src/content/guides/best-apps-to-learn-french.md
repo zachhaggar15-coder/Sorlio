@@ -9,10 +9,27 @@ updatedDate: 2026-10-14
 featured: true
 order: 20
 productClaimsVerified: false
+faq:
+  - question: "Is there one best app for learning French?"
+    answer: "No. Beginners, readers, people who want to speak and people studying grammar need different tools, so the right choice depends on your current level and goal."
+  - question: "Should I use a reading app or a course?"
+    answer: "Many learners use both: a structured course or grammar reference for explanations, and reading practice for comprehension and vocabulary."
+  - question: "Which kind of app helps most with speaking?"
+    answer: "Speaking tools, live tutors or conversation partners. Reading and vocabulary apps support speaking but do not replace practice out loud."
 sources:
   - label: "Council of Europe. Common European Framework of Reference for Languages (CEFR)."
     url: "https://www.coe.int/en/web/common-european-framework-reference-languages"
 ---
+
+<aside class="verdict">
+<p>Quick verdict</p>
+<ul>
+<li><strong>Starting from zero:</strong> a structured beginner app, plus simple reading as soon as you can manage it.</li>
+<li><strong>Want a syllabus:</strong> a structured course with grammar explanations.</li>
+<li><strong>Want to read more:</strong> a reading app matched to your level.</li>
+<li><strong>Want to speak:</strong> a speaking tool or tutor, with reading as support.</li>
+</ul>
+</aside>
 
 ## There is no single best app
 

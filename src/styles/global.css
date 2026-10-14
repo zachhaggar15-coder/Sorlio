@@ -774,6 +774,115 @@ tbody th {
   }
 }
 
+/* Quick verdict, methodology and FAQ blocks */
+.verdict {
+  background: var(--teal-soft);
+  border-left: 5px solid var(--teal);
+  border-radius: 10px;
+  padding: 1.1rem 1.3rem;
+  margin: 1.5rem 0 2rem;
+  max-width: var(--measure);
+}
+
+.verdict p:first-child {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--teal);
+  margin: 0 0 0.5rem;
+}
+
+.verdict ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.method {
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.9rem 1.2rem;
+  margin: 1.5rem 0;
+  max-width: var(--measure);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+.method p {
+  margin: 0;
+}
+
+.method-title {
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.3rem !important;
+}
+
+.faq {
+  margin-top: 2.5rem;
+  max-width: var(--measure);
+}
+
+.faq-item {
+  border-top: 1px solid var(--rule);
+  padding: 0.9rem 0 0.4rem;
+}
+
+.faq-item h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+}
+
+.faq-item p {
+  margin: 0 0 0.6rem;
+}
+
+/* Sorlio screenshots */
+.app-shots {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.app-shots figure {
+  margin: 0;
+  text-align: center;
+}
+
+.app-shots img {
+  border-radius: 14px;
+  border: 1px solid var(--rule);
+  box-shadow: 0 18px 30px -22px rgba(34, 30, 26, 0.5);
+  width: 100%;
+  height: auto;
+}
+
+.app-shots figcaption {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 40rem) {
+  .app-shots {
+    grid-template-columns: 1fr;
+    max-width: 16rem;
+    margin-inline: auto;
+  }
+}
+
+/* Glossary table, topic hubs, policy page */
+.glossary td:first-child {
+  font-family: var(--serif);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.topic-intro {
+  max-width: var(--measure);
+}
+
 /* Respect reduced-motion preferences */
 @media (prefers-reduced-motion: reduce) {
   *,

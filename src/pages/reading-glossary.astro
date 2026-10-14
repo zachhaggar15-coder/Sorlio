@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PlayCta from '../components/PlayCta.astro';
+
+// Original glossary, written for this site. Meanings are common everyday senses.
+const entries = [
+  { fr: 'journée', en: 'day (the period from morning to night)', ex: 'Quelle belle journée !', exEn: 'What a lovely day!' },
+  { fr: 'tout de suite', en: 'right away, immediately', ex: 'Je viens tout de suite.', exEn: "I'm coming right away." },
+  { fr: 'pourtant', en: 'yet, however, even so', ex: 'Il pleuvait, pourtant il est sorti.', exEn: 'It was raining, yet he went out.' },
+  { fr: "d'habitude", en: 'usually, normally', ex: "D'habitude, je prends le bus.", exEn: 'Usually I take the bus.' },
+  { fr: 'enfin', en: 'finally, at last', ex: 'Enfin, les vacances !', exEn: 'Finally, the holidays!' },
+  { fr: 'manquer', en: 'to miss (someone), or to be lacking', ex: 'Tu me manques.', exEn: 'I miss you.' },
+  { fr: 'rentrer', en: 'to go back home, to return', ex: 'Je rentre à six heures.', exEn: "I'm getting home at six." },
+  { fr: 'se débrouiller', en: 'to manage, to get by', ex: 'Je me débrouille en français.', exEn: 'I get by in French.' },
+  { fr: "avoir l'air", en: 'to look, to seem', ex: "Elle a l'air fatiguée.", exEn: 'She looks tired.' },
+  { fr: 'faire attention', en: 'to pay attention, to be careful', ex: 'Fais attention à la marche !', exEn: 'Watch the step!' },
+  { fr: 'en retard', en: 'late', ex: 'Il est en retard.', exEn: 'He is late.' },
+  { fr: 'bien sûr', en: 'of course', ex: 'Bien sûr, je viens.', exEn: "Of course, I'm coming." },
+  { fr: 'ça dépend', en: 'it depends', ex: 'Ça dépend du temps.', exEn: 'It depends on the weather.' },
+  { fr: 'au fond', en: 'at the back, at the bottom', ex: 'Au fond du jardin, il y a un arbre.', exEn: 'At the bottom of the garden there is a tree.' },
+  { fr: 'chercher', en: 'to look for, to collect (someone or something)', ex: 'Je vais chercher le pain.', exEn: "I'm going to get the bread." },
+  { fr: 'prendre le temps', en: 'to take time (to do something)', ex: 'Prends le temps de lire.', exEn: 'Take time to read.' },
+  { fr: 'une fois', en: 'once', ex: 'Une fois par semaine.', exEn: 'Once a week.' },
+  { fr: 'pas du tout', en: 'not at all', ex: "Ce n'est pas du tout difficile.", exEn: "It's not difficult at all." },
+  { fr: 'ensuite', en: 'then, next', ex: 'Ensuite, on mange.', exEn: 'Then we eat.' },
+];
+---
+<BaseLayout
+  title="Reading glossary of common French words"
+  description="Eighteen common French words and phrases with English meanings and example sentences, for learners who are starting to read French."
+  path="/reading-glossary/"
+  current="guides"
+>
+  <div class="prose-wrap">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Reading glossary' }]} />
+    <h1>A reading glossary of common French words</h1>
+    <p class="lede">
+      Words and phrases that appear again and again in French stories and news, with a simple English meaning and an example.
+    </p>
+    <p>
+      The meanings are the everyday senses of each word. French words often have more than one meaning, so use the
+      example to check how a word works in context. This glossary was written for Sorlio Guides and has not been
+      reviewed by a native-speaker teacher.
+    </p>
+
+    <div class="table-scroll">
+      <table class="glossary">
+        <caption>Common words and phrases for readers</caption>
+        <thead>
+          <tr>
+            <th scope="col">French</th>
+            <th scope="col">English meaning</th>
+            <th scope="col">Example</th>
+            <th scope="col">Example in English</th>
+          </tr>
+        </thead>
+        <tbody>
+          {entries.map((e) => (
+            <tr>
+              <th scope="row">{e.fr}</th>
+              <td>{e.en}</td>
+              <td><em>{e.ex}</em></td>
+              <td>{e.exEn}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      Once you know these words, read them in a full text, where they appear with other words you know. Our
+      <a href="/check-your-french-reading-level/">level check guide</a> helps you choose a text to read them in.
+    </p>
+
+    <PlayCta variant="end" />
+  </div>
+</BaseLayout>

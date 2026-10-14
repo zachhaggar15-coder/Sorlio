@@ -9,6 +9,14 @@ updatedDate: 2026-10-14
 featured: false
 order: 40
 productClaimsVerified: false
+methodology: "Written by the team that makes Sorlio, from public product information and general knowledge of each app's approach. We did not run controlled tests of learning outcomes and did not confirm current prices or plan limits. Check both official listings before you decide."
+faq:
+  - question: "Is Sorlio a replacement for Duolingo?"
+    answer: "Not necessarily. Duolingo focuses on short structured lessons, while Sorlio focuses on reading French with word help. They suit different stages, and many learners use both."
+  - question: "Can I use Duolingo and Sorlio together?"
+    answer: "Yes. Keep a short daily lesson for habit, and add reading sessions in Sorlio once you can read simple French."
+  - question: "Which app is free?"
+    answer: "Both products offer some free access. The limits change over time, so check the current free and paid features on each official listing."
 sources:
   - label: "Duolingo. Official website and plan information."
     url: "https://www.duolingo.com"
@@ -19,6 +27,15 @@ sources:
 ## Disclosure first
 
 This comparison is written by the team that makes Sorlio. We have tried to describe Duolingo accurately and to name the situations where Duolingo is the better choice. Plans, features and prices change, so check each product's official site or store listing before you decide. We did not run controlled tests of learning outcomes for either product.
+
+<aside class="verdict">
+<p>Quick verdict</p>
+<ul>
+<li><strong>Beginner who wants a guided start:</strong> Duolingo.</li>
+<li><strong>Can read simple French and wants more reading:</strong> Sorlio, on Android.</li>
+<li><strong>Want both:</strong> a short daily lesson plus reading sessions a few times a week.</li>
+</ul>
+</aside>
 
 ## The short verdict
 

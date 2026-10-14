@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import GuideCard from '../../components/GuideCard.astro';
+import { CATEGORY_LABELS, CATEGORY_BLURBS, type Category } from '../../lib/categories';
+
+// One hub page per category, listing its guides in order.
+export async function getStaticPaths() {
+  return (Object.keys(CATEGORY_LABELS) as Category[]).map((category) => ({
+    params: { category },
+    props: { category },
+  }));
+}
+
+interface Props {
+  category: Category;
+}
+
+const { category } = Astro.props;
+const label = CATEGORY_LABELS[category];
+const guides = (await getCollection('guides', ({ data }) => !data.draft && data.category === category)).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+---
+<BaseLayout
+  title={label}
+  description={`${CATEGORY_BLURBS[category]} Guides from Sorlio Guides, published by the makers of Sorlio.`}
+  path={`/topics/${category}/`}
+  current="guides"
+>
+  <div class="prose-wrap">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Topics' }, { label }]} />
+    <h1>{label}</h1>
+    <p class="lede topic-intro">{CATEGORY_BLURBS[category]}</p>
+    <ul class="cards">
+      {guides.map((g) => <GuideCard entry={g} />)}
+    </ul>
+  </div>
+</BaseLayout>

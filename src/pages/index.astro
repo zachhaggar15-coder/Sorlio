@@ -82,6 +82,7 @@ const orgLd = {
               <h2 id={`cat-${cat}`}>{CATEGORY_LABELS[cat]}</h2>
               <p class="meta">{CATEGORY_BLURBS[cat]}</p>
             </div>
+            <a href={`/topics/${cat}/`}>All {CATEGORY_LABELS[cat].toLowerCase()} →</a>
           </div>
           <ul class="cards">
             {items.map((g) => <GuideCard entry={g} />)}
@@ -89,6 +90,52 @@ const orgLd = {
         </section>
       );
     })}
+
+    <section class="section" aria-labelledby="which-guide">
+      <div class="section-head">
+        <h2 id="which-guide">Which guide should I read?</h2>
+      </div>
+      <ul class="cards">
+        <li class="card" data-cat="learning-method">
+          <p class="eyebrow">Not sure of your level?</p>
+          <h3><a href="/check-your-french-reading-level/">Check your reading level</a></h3>
+          <p>Three short samples and a method for choosing text you can read without drowning in lookups.</p>
+        </li>
+        <li class="card" data-cat="app-comparisons">
+          <p class="eyebrow">Choosing an app?</p>
+          <h3><a href="/best-apps-to-learn-french/">Find the right app for your goal</a></h3>
+          <p>Apps grouped by need, from complete beginners to readers who want more French.</p>
+        </li>
+        <li class="card" data-cat="practice-resources">
+          <p class="eyebrow">Ready to read?</p>
+          <h3><a href="/reading-glossary/">Learn common reading words</a></h3>
+          <p>Eighteen everyday French words and phrases, with example sentences and English meanings.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="see-app">
+      <div class="section-head">
+        <h2 id="see-app">See Sorlio in use</h2>
+        <a href="/about/">About Sorlio Guides</a>
+      </div>
+      <p>Screens from the Sorlio Android app: reading a text with a tapped word, choosing a lesson level, and reviewing saved vocabulary.</p>
+      <div class="app-shots">
+        <figure>
+          <img src="/app/phone-01-reader.png" alt="Sorlio reader showing a French sentence with a word tapped and its English meaning shown." width="1080" height="1920" loading="lazy" decoding="async" />
+          <figcaption>Tap a word to see its meaning in the sentence.</figcaption>
+        </figure>
+        <figure>
+          <img src="/app/phone-02-lessons.png" alt="Sorlio lessons screen with a guided French reading path." width="1080" height="1920" loading="lazy" decoding="async" />
+          <figcaption>Choose a reading level and follow a lesson path.</figcaption>
+        </figure>
+        <figure>
+          <img src="/app/phone-03-review.png" alt="Sorlio review screen showing a saved vocabulary card." width="1080" height="1920" loading="lazy" decoding="async" />
+          <figcaption>Review the words you saved.</figcaption>
+        </figure>
+      </div>
+      <p class="meta">Sorlio is available for Android only. Screens may differ slightly by version.</p>
+    </section>
 
     <section class="section" aria-labelledby="about-sorlio">
       <div class="section-head">

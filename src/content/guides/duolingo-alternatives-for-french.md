@@ -9,11 +9,27 @@ updatedDate: 2026-10-14
 featured: false
 order: 30
 productClaimsVerified: false
+faq:
+  - question: "Is Duolingo bad for learning French?"
+    answer: "No. Short structured lessons are useful for starting out and building a daily habit. The question is whether they still match what you need, such as reading longer French."
+  - question: "How do I know when to switch from Duolingo?"
+    answer: "A useful sign is when you complete lessons easily but cannot follow a simple paragraph of French without help. That suggests you need more reading practice."
+  - question: "Can I use Duolingo and a reading app together?"
+    answer: "Yes. A short daily lesson for habit, plus reading two or three times a week, is a common pattern."
 sources:
   - label: "Council of Europe. Common European Framework of Reference for Languages (CEFR)."
     url: "https://www.coe.int/en/web/common-european-framework-reference-languages"
   - label: "Day, R. and Bamford, J. (1998). Extensive Reading in the Second Language Classroom. Cambridge University Press."
 ---
+
+<aside class="verdict">
+<p>Quick verdict</p>
+<ul>
+<li><strong>Still a beginner:</strong> keep your daily lessons; add a little simple reading.</li>
+<li><strong>Can read simple text but not paragraphs:</strong> a reading-first app is the natural next step.</li>
+<li><strong>Want grammar explained in depth:</strong> a structured course or grammar reference.</li>
+</ul>
+</aside>
 
 ## Why people look for an alternative
 
