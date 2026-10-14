@@ -20,6 +20,9 @@ const EXPECTED_ARTICLES = [
   'french-short-stories-for-beginners',
   'b1-french-reading-exercises',
   'check-your-french-reading-level',
+  'how-to-remember-french-vocabulary',
+  'improve-french-reading-comprehension',
+  'how-long-to-learn-french',
 ];
 const EXPECTED_PAGES = [
   '/',
