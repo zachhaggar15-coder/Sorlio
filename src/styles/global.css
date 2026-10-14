@@ -118,6 +118,18 @@ a:hover {
   letter-spacing: 0.01em;
 }
 
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.brand img {
+  width: 34px;
+  height: 34px;
+  flex: none;
+}
+
 .brand span {
   color: var(--accent);
 }
