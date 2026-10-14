@@ -1,0 +1,17 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import GuideLayout from '../layouts/GuideLayout.astro';
+
+// Each guide lives at the root, e.g. /best-french-reading-apps/.
+export async function getStaticPaths() {
+  const guides = await getCollection('guides', ({ data }) => !data.draft);
+  return guides.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+interface Props {
+  entry: CollectionEntry<'guides'>;
+}
+
+const { entry } = Astro.props;
+---
+<GuideLayout entry={entry} />

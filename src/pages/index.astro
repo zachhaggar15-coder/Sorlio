@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GuideCard from '../components/GuideCard.astro';
+import PlayCta from '../components/PlayCta.astro';
+import { SITE, absoluteUrl } from '../lib/site';
+import { CATEGORY_LABELS, CATEGORY_BLURBS, type Category } from '../lib/categories';
+
+const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+const featured = guides.filter((g) => g.data.featured).slice(0, 4);
+const categories = Object.keys(CATEGORY_LABELS) as Category[];
+
+const websiteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: absoluteUrl(Astro.site, '/'),
+  description: SITE.description,
+  inLanguage: 'en-GB',
+};
+const orgLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: SITE.publisher,
+  description: 'Makers of Sorlio, a French-learning app for Android.',
+};
+---
+<BaseLayout
+  title={SITE.name}
+  description={SITE.description}
+  path="/"
+  current="home"
+  jsonLd={[websiteLd, orgLd]}
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Guides to learning French</p>
+      <h1>Learn French by reading things you actually want to read</h1>
+      <p class="lede">
+        Honest guides to choosing French-learning apps, building a study routine and practising reading comprehension.
+        Published by the team behind Sorlio, an Android app for reading French with contextual vocabulary.
+      </p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    {featured.length > 0 && (
+      <section class="section" aria-labelledby="featured-title">
+        <div class="section-head">
+          <h2 id="featured-title">Start here</h2>
+        </div>
+        <ul class="cards">
+          {featured.map((g) => <GuideCard entry={g} />)}
+        </ul>
+      </section>
+    )}
+
+    {categories.map((cat) => {
+      const items = guides.filter((g) => g.data.category === cat);
+      if (items.length === 0) return null;
+      return (
+        <section class="section" aria-labelledby={`cat-${cat}`}>
+          <div class="section-head">
+            <div>
+              <h2 id={`cat-${cat}`}>{CATEGORY_LABELS[cat]}</h2>
+              <p class="meta">{CATEGORY_BLURBS[cat]}</p>
+            </div>
+          </div>
+          <ul class="cards">
+            {items.map((g) => <GuideCard entry={g} />)}
+          </ul>
+        </section>
+      );
+    })}
+
+    <section class="section" aria-labelledby="about-sorlio">
+      <div class="section-head">
+        <h2 id="about-sorlio">About Sorlio</h2>
+      </div>
+      <p>
+        Sorlio is an Android app focused on reading French. It offers French stories and news, lets you tap a word
+        to look it up, helps you learn vocabulary in context and review it later, and includes listening alongside
+        reading. Some features depend on your plan, so check the Google Play listing for current details.
+      </p>
+      <p>
+        If you are still at the start, a structured course may suit you better. Our guides say so when it is true.
+      </p>
+      <PlayCta variant="end" />
+    </section>
+  </div>
+</BaseLayout>

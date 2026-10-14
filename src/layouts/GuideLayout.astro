@@ -1,0 +1,144 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { render, getCollection } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PlayCta from '../components/PlayCta.astro';
+import GuideCard from '../components/GuideCard.astro';
+import { SITE, absoluteUrl } from '../lib/site';
+import { CATEGORY_LABELS } from '../lib/categories';
+
+interface Props {
+  entry: CollectionEntry<'guides'>;
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const { data } = entry;
+const path = `/${entry.id}/`;
+const canonicalUrl = absoluteUrl(Astro.site, path);
+const tocHeadings = headings.filter((h) => h.depth === 2);
+
+// Related guides: same category first, then others. Never the article itself.
+const all = (await getCollection('guides', ({ data: d }) => !d.draft)).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+const related = [
+  ...all.filter((g) => g.id !== entry.id && g.data.category === data.category),
+  ...all.filter((g) => g.id !== entry.id && g.data.category !== data.category),
+].slice(0, 3);
+
+const dateFormat: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' };
+const published = data.publishedDate.toLocaleDateString('en-GB', dateFormat);
+const updated = data.updatedDate.toLocaleDateString('en-GB', dateFormat);
+const showUpdated = data.updatedDate.getTime() !== data.publishedDate.getTime();
+
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: data.title,
+  description: data.description,
+  datePublished: data.publishedDate.toISOString(),
+  dateModified: data.updatedDate.toISOString(),
+  mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
+  author: { '@type': 'Organization', name: SITE.publisher },
+  publisher: { '@type': 'Organization', name: SITE.publisher },
+  inLanguage: 'en-GB',
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: absoluteUrl(Astro.site, '/') },
+    { '@type': 'ListItem', position: 2, name: 'All guides', item: absoluteUrl(Astro.site, '/articles/') },
+    { '@type': 'ListItem', position: 3, name: data.title, item: canonicalUrl },
+  ],
+};
+---
+<BaseLayout
+  title={data.title}
+  description={data.description}
+  path={path}
+  ogType="article"
+  current="guides"
+  jsonLd={[articleLd, breadcrumbLd]}
+>
+  <div class="prose-wrap">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: '/' },
+        { label: 'All guides', href: '/articles/' },
+        { label: data.title },
+      ]}
+    />
+
+    <article>
+      <header>
+        <p class="eyebrow">{CATEGORY_LABELS[data.category]}</p>
+        <h1>{data.title}</h1>
+        <p class="lede">{data.description}</p>
+        <p class="article-meta">
+          <span>By the Sorlio team</span>
+          <span>Published <time datetime={data.publishedDate.toISOString()}>{published}</time></span>
+          {showUpdated && (
+            <span>Updated <time datetime={data.updatedDate.toISOString()}>{updated}</time></span>
+          )}
+        </p>
+      </header>
+
+      <div class="note" role="note">
+        <p style="margin:0">
+          <strong>Who publishes this:</strong> Sorlio Guides is published by the makers of Sorlio, an Android app
+          for learning French through reading. This is not an independent review.
+          <a href="/about/">Read our disclosure</a>.
+        </p>
+      </div>
+
+      {tocHeadings.length > 1 && (
+        <nav class="toc" aria-labelledby="toc-title">
+          <p id="toc-title">In this guide</p>
+          <ol>
+            {tocHeadings.map((h) => (
+              <li><a href={`#${h.slug}`}>{h.text}</a></li>
+            ))}
+          </ol>
+        </nav>
+      )}
+
+      <div class="article-body">
+        <Content />
+      </div>
+
+      {data.sources.length > 0 && (
+        <section class="sources" aria-labelledby="sources-title">
+          <h2 id="sources-title">Sources and further reading</h2>
+          <ol>
+            {data.sources.map((s) => (
+              <li>
+                {s.url ? <a href={s.url} rel="noopener">{s.label}</a> : <span>{s.label}</span>}
+                {s.note && <span> {s.note}</span>}
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      <PlayCta variant="end" />
+
+      <p class="meta">
+        Some links in this guide go to Sorlio&rsquo;s Google Play listing. Product details can change, so check the
+        store page before you subscribe or buy.
+      </p>
+    </article>
+
+    {related.length > 0 && (
+      <section class="related" aria-labelledby="related-title">
+        <h2 id="related-title">Related guides</h2>
+        <ul class="cards">
+          {related.map((g) => <GuideCard entry={g} />)}
+        </ul>
+      </section>
+    )}
+  </div>
+</BaseLayout>

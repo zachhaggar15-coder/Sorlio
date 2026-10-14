@@ -1,0 +1,32 @@
+{
+  "name": "sorlio-guides",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent French-learning guides published by the makers of Sorlio.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "lint": "eslint .",
+    "verify": "node scripts/verify-dist.mjs",
+    "test": "npm run check && npm run lint && npm run build && npm run verify"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.4",
+    "astro": "5.18.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.6",
+    "@eslint/js": "^9.39.5",
+    "eslint": "9.39.5",
+    "eslint-plugin-astro": "1.6.0",
+    "globals": "16.4.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.2"
+  }
+}

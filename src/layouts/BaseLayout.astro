@@ -1,0 +1,82 @@
+---
+import '../styles/global.css';
+import { SITE, absoluteUrl, isNoindexBuild } from '../lib/site';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Site-relative path with a trailing slash, e.g. "/best-french-reading-apps/". */
+  path: string;
+  ogType?: 'website' | 'article';
+  jsonLd?: Record<string, unknown>[];
+  current?: 'home' | 'guides' | 'about' | undefined;
+}
+
+const { title, description, path, ogType = 'website', jsonLd = [], current } = Astro.props;
+const canonical = absoluteUrl(Astro.site, path);
+const fullTitle = path === '/' ? `${SITE.name}: ${SITE.tagline}` : `${title} | ${SITE.name}`;
+const noindex = isNoindexBuild();
+const ogImage = absoluteUrl(Astro.site, '/og-default.svg');
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex ? <meta name="robots" content="noindex, nofollow" /> : <meta name="robots" content="index, follow, max-image-preview:large" />}
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={SITE.locale} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {jsonLd.map((data) => (
+      <script type="application/ld+json" set:html={JSON.stringify(data)} />
+    ))}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">Sorlio <span>Guides</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="/articles/" aria-current={current === 'guides' ? 'page' : undefined}>All guides</a></li>
+            <li><a href="/about/" aria-current={current === 'about' ? 'page' : undefined}>About and disclosure</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div>
+          <p>
+            Sorlio Guides is published by the makers of <strong>Sorlio</strong>, an Android French-learning app.
+            We are not an independent review organisation. Our comparisons are written by the Sorlio team, and we
+            say so where it matters. Read the <a href="/about/">disclosure and editorial policy</a>.
+          </p>
+        </div>
+        <ul aria-label="Footer">
+          <li><a href={SITE.playStoreUrl} rel="noopener">Sorlio on Google Play</a></li>
+          <li><a href="/articles/">All guides</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

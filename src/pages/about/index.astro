@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { SITE } from '../../lib/site';
+---
+<BaseLayout
+  title="About and disclosure"
+  description="Who publishes Sorlio Guides, how the comparisons are written, and what we do and do not claim."
+  path="/about/"
+  current="about"
+>
+  <div class="prose-wrap">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
+    <h1>About Sorlio Guides</h1>
+    <p class="lede">Sorlio Guides is a French-learning publication run by the makers of Sorlio.</p>
+
+    <h2>Who publishes this site</h2>
+    <p>
+      {SITE.name} is published by the team that makes <strong>Sorlio</strong>, an Android app for learning French
+      through reading. Because we make one of the apps we write about, we are not an independent review
+      organisation, and we do not present our articles as impartial tests.
+    </p>
+
+    <h2>How comparison articles are written</h2>
+    <ul>
+      <li>We describe other apps using their own public materials where we could check them, and we say where we could not.</li>
+      <li>We do not invent user testimonials, ratings or test results. We have not published any measured learning outcomes.</li>
+      <li>Where another product suits a learner better, the article says so.</li>
+      <li>Prices, plans and features change. Check the product's own store page before you pay for anything.</li>
+    </ul>
+
+    <h2>Authors and review</h2>
+    <p>
+      Articles are written by the Sorlio team. We do not list individual author biographies or qualifications
+      because none are claimed. Articles are not linguistically reviewed by a named native-speaker or teacher
+      unless an article says so. Each guide shows its published and last-updated dates.
+    </p>
+
+    <h2>Google Play and privacy</h2>
+    <p>
+      Some links go to the <a href={SITE.playStoreUrl} rel="noopener">Sorlio listing on Google Play</a>. Sorlio is
+      available for Android only. This site uses no advertising scripts, analytics trackers or consent banners.
+    </p>
+
+    <h2>Corrections</h2>
+    <p>If something here is wrong or out of date, please tell us so we can correct it.</p>
+  </div>
+</BaseLayout>

@@ -1,0 +1,13 @@
+# Dependencies and build output
+node_modules/
+dist/
+.astro/
+
+# Local environment and editor/tool state
+.env
+.env.*
+!.env.example
+.claude/
+.vercel/
+.DS_Store
+*.log

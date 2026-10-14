@@ -1,0 +1,18 @@
+---
+import { SITE } from '../lib/site';
+
+interface Props {
+  variant?: 'end';
+}
+
+const { variant = 'end' } = Astro.props;
+---
+<aside class="cta" aria-labelledby={`cta-${variant}`}>
+  <h2 id={`cta-${variant}`}>Try Sorlio on Android</h2>
+  <p>
+    Sorlio is an Android app for learning French through reading. Read French stories and news, tap unfamiliar
+    words to look them up, and review vocabulary in the context where you met it.
+  </p>
+  <a class="btn" href={SITE.playStoreUrl} rel="noopener">Get Sorlio on Google Play</a>
+  <small>Sorlio is available for Android only. Features and plans are described on the Google Play listing.</small>
+</aside>
