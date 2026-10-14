@@ -85,7 +85,7 @@ Ordered by expected impact on search and on reader trust.
 
 ## Icon
 
-A new site mark is in `public/icon.svg`: an open-book shape in the teal brand colour with a sun-yellow speech dot. It is used as the favicon, in the header and in the social share image (`public/og-default.svg`). It is a generic mark, not a Sorlio app icon, so it is clearly a Guides brand.
+The Sorlio speech-bubble mark is in `public/icon.png`, supplied by the owner. It is used as the favicon, the touch icon, the header logo and, with the site name, in the social share image (`public/og-default.png`).
 
 ## Decisions needed from you
 

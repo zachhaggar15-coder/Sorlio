@@ -16,7 +16,7 @@ const { title, description, path, ogType = 'website', jsonLd = [], current } = A
 const canonical = absoluteUrl(Astro.site, path);
 const fullTitle = path === '/' ? `${SITE.name}: ${SITE.tagline}` : `${title} | ${SITE.name}`;
 const noindex = isNoindexBuild();
-const ogImage = absoluteUrl(Astro.site, '/og-default.svg');
+const ogImage = absoluteUrl(Astro.site, '/og-default.png');
 ---
 <!doctype html>
 <html lang="en-GB">
@@ -34,11 +34,12 @@ const ogImage = absoluteUrl(Astro.site, '/og-default.svg');
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content={SITE.locale} />
     <meta property="og:image" content={ogImage} />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     {jsonLd.map((data) => (
       <script type="application/ld+json" set:html={JSON.stringify(data)} />
@@ -48,7 +49,7 @@ const ogImage = absoluteUrl(Astro.site, '/og-default.svg');
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="wrap">
-        <a class="brand" href="/"><img src="/icon.svg" alt="" width="34" height="34" />Sorlio <span>Guides</span></a>
+        <a class="brand" href="/"><img src="/icon.png" alt="" width="34" height="34" />Sorlio <span>Guides</span></a>
         <nav class="site-nav" aria-label="Main">
           <ul>
             <li><a href="/articles/" aria-current={current === 'guides' ? 'page' : undefined}>All guides</a></li>

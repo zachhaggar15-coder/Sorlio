@@ -48,7 +48,7 @@ src/layouts/                BaseLayout (SEO head), GuideLayout (article template
 src/components/             Breadcrumbs, PlayCta, GuideCard
 src/lib/                    site.ts (site facts, URL helpers), categories.ts
 src/styles/global.css       All styling: one stylesheet, colour tokens on :root
-public/                     favicon.svg, og-default.svg
+public/                     favicon.png, icon.png, apple-touch-icon.png, og-default.png
 scripts/verify-dist.mjs     Post-build checks on dist/
 docs/                       Keyword map and future article backlog
 ```
