@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { SITE, absoluteUrl, isNoindexBuild } from '../lib/site';
+import { CATEGORY_ORDER, CATEGORY_SHORT } from '../lib/categories';
 
 interface Props {
   title: string;
@@ -57,6 +58,16 @@ const ogImage = absoluteUrl(Astro.site, '/og-default.png');
           </ul>
         </nav>
       </div>
+      <nav class="section-bar" aria-label="Sections">
+        <div class="wrap">
+          <ul>
+            {CATEGORY_ORDER.map((cat) => (
+              <li><a href={`/topics/${cat}/`} aria-current={Astro.url.pathname === `/topics/${cat}/` ? 'page' : undefined}>{CATEGORY_SHORT[cat]}</a></li>
+            ))}
+            <li><a href="/reading-glossary/" aria-current={Astro.url.pathname === '/reading-glossary/' ? 'page' : undefined}>Glossary</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main id="main">

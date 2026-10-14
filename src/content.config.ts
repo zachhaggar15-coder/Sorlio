@@ -4,6 +4,8 @@ import { glob } from 'astro/loaders';
 export const CATEGORIES = [
   'app-comparisons',
   'learning-method',
+  'grammar',
+  'vocabulary',
   'practice-resources',
 ] as const;
 

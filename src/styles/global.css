@@ -157,6 +157,80 @@ a:hover {
   text-underline-offset: 0.3em;
 }
 
+/* Section bar: one tap from any page to each topic */
+.section-bar {
+  border-top: 1px solid var(--rule);
+  background: var(--paper-deep);
+}
+
+.section-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 0.25rem 1.1rem;
+  margin: 0;
+  padding: 0.15rem 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.section-bar a {
+  display: inline-block;
+  padding: 0.5rem 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+.section-bar a:hover,
+.section-bar a[aria-current='page'] {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+/* Previous and next within a topic */
+.pager {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: 1fr;
+  margin: 2.5rem 0 0;
+  max-width: var(--measure);
+}
+
+@media (min-width: 36rem) {
+  .pager {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.pager a {
+  display: block;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.8rem 1rem;
+  background: #fff;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.pager a:hover {
+  border-color: var(--accent);
+}
+
+.pager small {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.pager .next {
+  text-align: right;
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--rule);
@@ -425,6 +499,16 @@ tbody th {
 .card[data-cat='practice-resources'] {
   --cat: #a57512;
   --cat-soft: var(--sun-soft);
+}
+
+.card[data-cat='grammar'] {
+  --cat: #3b4f9a;
+  --cat-soft: #e3e7f6;
+}
+
+.card[data-cat='vocabulary'] {
+  --cat: #6b3f86;
+  --cat-soft: #eee3f4;
 }
 
 .card .eyebrow {

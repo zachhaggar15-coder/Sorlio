@@ -4,13 +4,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import GuideCard from '../components/GuideCard.astro';
 import PlayCta from '../components/PlayCta.astro';
 import { SITE, absoluteUrl } from '../lib/site';
-import { CATEGORY_LABELS, CATEGORY_BLURBS, type Category } from '../lib/categories';
+import { CATEGORY_LABELS, CATEGORY_BLURBS, CATEGORY_ORDER } from '../lib/categories';
 
 const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort(
   (a, b) => a.data.order - b.data.order,
 );
 const featured = guides.filter((g) => g.data.featured).slice(0, 4);
-const categories = Object.keys(CATEGORY_LABELS) as Category[];
+const categories = CATEGORY_ORDER;
 
 const websiteLd = {
   '@context': 'https://schema.org',

@@ -7,6 +7,7 @@ import PlayCta from '../components/PlayCta.astro';
 import GuideCard from '../components/GuideCard.astro';
 import { SITE, absoluteUrl } from '../lib/site';
 import { CATEGORY_LABELS } from '../lib/categories';
+// CATEGORY_LABELS also supplies the topic names used in the pager below.
 
 interface Props {
   entry: CollectionEntry<'guides'>;
@@ -27,6 +28,12 @@ const related = [
   ...all.filter((g) => g.id !== entry.id && g.data.category === data.category),
   ...all.filter((g) => g.id !== entry.id && g.data.category !== data.category),
 ].slice(0, 3);
+
+// Previous and next guide within the same topic, in listing order.
+const sameTopic = all.filter((g) => g.data.category === data.category);
+const topicIndex = sameTopic.findIndex((g) => g.id === entry.id);
+const prevGuide = topicIndex > 0 ? sameTopic[topicIndex - 1] : undefined;
+const nextGuide = topicIndex >= 0 && topicIndex < sameTopic.length - 1 ? sameTopic[topicIndex + 1] : undefined;
 
 const dateFormat: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' };
 const published = data.publishedDate.toLocaleDateString('en-GB', dateFormat);
@@ -163,6 +170,23 @@ const breadcrumbLd = {
         store page before you subscribe or buy.
       </p>
     </article>
+
+    {(prevGuide || nextGuide) && (
+      <nav class="pager" aria-label={`More in ${CATEGORY_LABELS[data.category]}`}>
+        {prevGuide ? (
+          <a class="prev" href={`/${prevGuide.id}/`} rel="prev">
+            <small>Previous in {CATEGORY_LABELS[data.category]}</small>
+            {prevGuide.data.title}
+          </a>
+        ) : <span />}
+        {nextGuide ? (
+          <a class="next" href={`/${nextGuide.id}/`} rel="next">
+            <small>Next in {CATEGORY_LABELS[data.category]}</small>
+            {nextGuide.data.title}
+          </a>
+        ) : <span />}
+      </nav>
+    )}
 
     {related.length > 0 && (
       <section class="related" aria-labelledby="related-title">
