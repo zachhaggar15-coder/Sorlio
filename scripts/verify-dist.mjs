@@ -19,6 +19,7 @@ const EXPECTED_ARTICLES = [
   'how-to-stop-translating-french',
   'french-short-stories-for-beginners',
   'b1-french-reading-exercises',
+  'check-your-french-reading-level',
 ];
 const EXPECTED_PAGES = ['/', '/articles/', '/about/', ...EXPECTED_ARTICLES.map((s) => `/${s}/`)];
 // External hosts that may legitimately be linked.
