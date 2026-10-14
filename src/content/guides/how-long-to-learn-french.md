@@ -49,6 +49,16 @@ Most learners find that the move from A1 to A2 feels quick, and the move from B1
 
 **Motivation and sustainability.** A plan that you can keep for months beats an intense plan you abandon after three weeks.
 
+## Two illustrative learners
+
+These two learners are invented to show how the same goal can take different time. They are not real people, and the numbers are not measurements.
+
+**Amira** studies twenty minutes a day on most days, all of it vocabulary and short exercises, and speaks no French. She builds a good word bank, but when she finally tries a conversation she struggles to follow it. Her reading progress looks steady and her speaking has barely moved.
+
+**Ben** studies the same twenty minutes, but splits it: ten minutes of reading at his level and ten of review, with one short conversation session a week. His vocabulary grows a little more slowly, but his reading and speaking improve together, so he reaches a usable A2 sooner.
+
+The lesson is not that one method is magic. It is that time spent on the right mix of skills matters as much as the amount of time.
+
 ## A way to plan your own timeline
 
 1. **Choose a target level.** For many learners, A2 is a sensible first goal, and B1 is a common next one.
@@ -64,7 +74,7 @@ Reading builds vocabulary and comprehension efficiently, and it is an excellent 
 
 ## Where Sorlio fits
 
-Sorlio is an Android app for reading French stories and news, with tap-to-look-up vocabulary, saved words and listening while you read. It can support the reading and listening part of a timeline, at the level you choose. It does not replace speaking practice or a structured course, and we make no promise about how quickly anyone progresses. We are the makers of Sorlio, so weigh that accordingly.
+Sorlio is an Android app for reading French, with graded stories from A1 to C2, tap-to-look-up vocabulary, saved words and listening with your device's French voice. It can support the reading and vocabulary part of a timeline, at the level you choose. It does not teach speaking or replace a structured course, and we make no promise about how quickly anyone progresses. We are the makers of Sorlio, so weigh that accordingly.
 
 ## Set a goal you can measure
 

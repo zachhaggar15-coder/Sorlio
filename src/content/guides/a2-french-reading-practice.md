@@ -22,7 +22,7 @@ We wrote it ourselves and checked the grammar, but it has not been reviewed by a
 
 ## Introduction in English
 
-Claire lives in a small French town. On Sunday morning she goes to the market with her bicycle. She wants tomatoes and apples, and she meets a friend at a café afterwards. In the passage she buys a basket, talks about her holiday plans and mentions something she forgot the day before. Read the passage once for the story, then go back to the vocabulary and grammar sections.
+Claire lives in a small French town. On Sunday morning she goes to the market with her bicycle. She wants tomatoes and apples, and she meets a friend at a café afterwards. In the passage she buys a basket because she forgot her bag at home, and she talks about her holiday plans. Read the passage once for the story, then go back to the vocabulary and grammar sections.
 
 ## The passage
 
@@ -32,7 +32,7 @@ Le dimanche matin, Claire se lève tôt. Elle prend son vélo et va au marché d
 
 Au stand de Monsieur Durand, elle parle avec le marchand. « Bonjour Claire ! Qu'est-ce que tu veux aujourd'hui ? » demande-t-il. « Je voudrais deux kilos de tomates, s'il vous plaît », répond-elle.
 
-Hier, elle a oublié son sac à la maison. Alors elle achète un grand panier en osier. Il coûte cinq euros. Ensuite, elle s'arrête au café pour prendre un café au lait avec son amie Sophie. Sophie habite à côté du marché depuis deux ans.
+Ce matin, elle a oublié son sac à la maison. Alors elle achète un grand panier en osier. Il coûte cinq euros. Ensuite, elle s'arrête au café pour prendre un café au lait avec son amie Sophie. Sophie habite à côté du marché depuis deux ans.
 
 Elles parlent de leurs vacances. Claire va partir en Bretagne le mois prochain. Elle va prendre le train et rester une semaine chez sa sœur.
 
@@ -66,7 +66,7 @@ Elles parlent de leurs vacances. Claire va partir en Bretagne le mois prochain. 
 
 ## Comprehension questions
 
-1. What time does Claire get up on Sunday?
+1. When does Claire get up on Sunday morning?
 2. How does she travel to the market?
 3. What does she want to buy at Monsieur Durand's stand?
 4. Why does she buy a basket?
@@ -82,7 +82,7 @@ Elles parlent de leurs vacances. Claire va partir en Bretagne le mois prochain. 
 1. She gets up early (*tôt*).
 2. She goes by bicycle (*son vélo*).
 3. Tomatoes. She asks for two kilos.
-4. She forgot her bag at home, so she needs something to carry her shopping.
+4. She forgot her bag at home this morning (*ce matin*), so she needs something to carry her shopping.
 5. Five euros.
 6. Her friend Sophie.
 7. For two years (*depuis deux ans*).
@@ -100,4 +100,4 @@ Elles parlent de leurs vacances. Claire va partir en Bretagne le mois prochain. 
 
 ## Continuing with reading
 
-Short practice passages like this one are useful, but a steady diet of them gets repetitive quickly. Once you can follow this passage comfortably, move on to longer simple stories and A2 news. Sorlio is an Android app for reading French stories and news, with tap-to-look-up vocabulary and saved words, so it can serve as a next step once you have finished these exercises. Check the Google Play listing for which content is available on your plan.
+Short practice passages like this one are useful, but a steady diet of them gets repetitive quickly. Once you can follow this passage comfortably, move on to longer simple stories and A2 news. Sorlio is an Android app with graded French stories from A1 to C2, so you can carry on at A2 and move up when the stories feel easy. You tap a word for its meaning in the sentence, save it and review it later, and you can listen with your device's French voice. Check the Google Play listing for the current features.

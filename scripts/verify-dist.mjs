@@ -157,6 +157,15 @@ for (const p of EXPECTED_PAGES) {
     }
   }
 
+  // Mobile: every table must sit inside a scroll container so it cannot widen the page
+  const tableCount = (html.match(/<table[\s>]/g) || []).length;
+  const wrappedCount = (html.match(/<div class="table-scroll"[^>]*>\s*<table[\s>]/g) || []).length;
+  check(tableCount === wrappedCount, `${p} has ${tableCount - wrappedCount} table(s) outside a scroll container`);
+
+  // Accessibility: every table header cell declares whether it heads a row or column
+  const headersWithoutScope = (html.match(/<th(?=[\s>])(?![^>]*\sscope=)[^>]*>/g) || []).length;
+  check(headersWithoutScope === 0, `${p} has ${headersWithoutScope} table header cells without a scope`);
+
   // FAQ: when a page has a visible FAQ, it must carry matching FAQPage data
   if (html.includes('id="faq-title"')) {
     const visibleItems = (html.match(/class="faq-item"/g) || []).length;

@@ -55,11 +55,11 @@ This is an original story written for this guide, at about A1 to A2 level.
 
 **Useful vocabulary:**
 
-- *chaque matin* — every morning
-- *partout* — everywhere
-- *enfin* — finally, at last
-- *un petit malin* — a clever little rascal (an affectionate phrase for a playful animal or child)
-- *demain* — tomorrow
+- *chaque matin*: every morning
+- *partout*: everywhere
+- *enfin*: finally, at last
+- *un petit malin*: a clever little rascal (an affectionate phrase for a playful animal or child)
+- *demain*: tomorrow
 
 **Grammar to notice:**
 
@@ -86,6 +86,6 @@ This is an original story written for this guide, at about A1 to A2 level.
 
 ## Where Sorlio fits
 
-Sorlio is an Android app for reading French stories and news. It includes stories at different difficulty levels and lets you tap a word to look it up, save it and review it later. That fits the routine above: you read the story, look up the words that block you, and review them afterwards. Check the Google Play listing for the current range of stories and what your plan includes.
+Sorlio is an Android app with graded French stories from A1 to C2, including very simple beginner texts, and a guided lesson path. You tap a word to look it up, save it and review it later. That fits the routine above: you read the story, look up the words that block you, and review them afterwards. Free use includes 5 new saved words a day, which suits the advice to keep your list small. Check the Google Play listing for the current features.
 
 We are the makers of Sorlio, so treat this recommendation accordingly. Whatever you read, choose stories you can follow and keep reading.

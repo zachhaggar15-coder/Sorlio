@@ -42,9 +42,9 @@ French sentences often run long. Rather than reading word by word, find the main
 
 Read it in chunks:
 
-- *Bien que la pluie ait commencé tôt* — although the rain started early (a concession)
-- *les enfants sont sortis jouer dans le parc* — the children went out to play in the park (the main clause)
-- *parce qu'ils voulaient profiter de la journée* — because they wanted to make the most of the day (the reason)
+- *Bien que la pluie ait commencé tôt*: although the rain started early (a concession)
+- *les enfants sont sortis jouer dans le parc*: the children went out to play in the park (the main clause)
+- *parce qu'ils voulaient profiter de la journée*: because they wanted to make the most of the day (the reason)
 
 The main event is the children going out. Everything else adds context. Once you see that, the sentence is clear even though it is long.
 
@@ -83,4 +83,4 @@ These strategies work best on text where you know most of the words. If you are 
 
 ## Where Sorlio fits
 
-Sorlio is an Android app for reading French stories and news, with tap-to-look-up vocabulary, saved words and listening while you read. Its value for comprehension is that you can stay in the text, check only the words that block you, and return to the same passage. We are the makers of Sorlio, so weigh that accordingly. The strategies above work with any reading source you can understand most of.
+Sorlio is an Android app for reading French, with graded stories from A1 to C2, tap-to-look-up vocabulary, saved words, and listening with your device's French voice. Its value for comprehension is that you can stay in the text, check only the words that block you, and return to the same passage. We are the makers of Sorlio, so weigh that accordingly. The strategies above work with any reading source you can understand most of.

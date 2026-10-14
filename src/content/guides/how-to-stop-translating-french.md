@@ -28,7 +28,7 @@ Translating word by word has three hidden costs:
 - **Word order.** French often places adjectives, pronouns and objects in different positions from English. Translating in order can produce an English sentence that means something different.
 - **Memory.** Words learned as English equivalents tend to stay attached to English. You recognise *maison* as "house", but you may not hear *maison* as a place you live.
 
-Research on second-language reading has long pointed to the value of meeting words in running text, where meaning comes from context, rather than through isolated translation (Nation, 2001). Context does the work that a dictionary otherwise does.
+Vocabulary research suggests that words are learned more durably when you meet them repeatedly in running text, where meaning comes from context, than when you learn them only as translations (Nation, 2001). Context does some of the work that a dictionary otherwise does.
 
 ## Step 1: Choose text you mostly understand
 
@@ -44,10 +44,10 @@ Instead of translating word by word, read in chunks: the subject and verb, then 
 
 Read it in chunks rather than in English order:
 
-- *Hier* — yesterday, a time marker at the front.
-- *Marc a pris le train* — Marc took the train (*a pris* is the past of *prendre*).
-- *pour Lyon* — to Lyon.
-- *parce qu'il avait rendez-vous avec sa sœur* — because he had an appointment with his sister.
+- *Hier*: yesterday, a time marker at the front.
+- *Marc a pris le train*: Marc took the train (*a pris* is the past of *prendre*).
+- *pour Lyon*: to Lyon.
+- *parce qu'il avait rendez-vous avec sa sœur*: because he had an appointment with his sister.
 
 You do not need a word-for-word English version. The meaning is already there once you have the chunks.
 
@@ -70,7 +70,7 @@ Direct reading is a skill, so practise it on purpose:
 3. **Read it aloud** at a speed you can manage. Hearing the sentence in French helps the meaning attach to the French words.
 4. **Summarise in French** in one or two short sentences. A summary forces you to build meaning directly.
 
-Ten minutes of this a day does more than an hour of translation, because it trains the path you want to use.
+A short daily session of this is worth more than a long session of translation, because it trains the path you want to use. That is a practical judgement, not a measured result, so notice how it works for you.
 
 ## Step 5: Watch for the moment it starts to work
 
@@ -93,4 +93,4 @@ Keep a short note of how many sentences you needed to translate in a given sessi
 
 ## Where Sorlio fits
 
-Sorlio is an Android app for reading French stories and news. It lets you tap a word while you read, so you can look it up in the sentence where you met it, and save words for later review. That supports the direct route: you stay in the French text and check only what blocks you. We are the makers of Sorlio, so weigh that accordingly. The method works with any reading source you can understand most of.
+Sorlio is an Android app for reading French. It lets you tap a word while you read, so you can look it up in the sentence where you met it, and save words for later review. The meaning shown depends on the sentence, and uncertain results are labelled. That supports the direct route: you stay in the French text and check only what blocks you. We are the makers of Sorlio, so weigh that accordingly. The method works with any reading source you can understand most of.

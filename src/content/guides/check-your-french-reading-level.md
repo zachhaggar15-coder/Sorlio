@@ -45,6 +45,19 @@ Work through these in order and stop when a passage stops being comfortable.
 
 **Step 5: Test with a question.** After reading, answer three questions in English: what happened, who was involved, and why it matters. Being able to answer confirms that you understood, rather than that you merely recognised words.
 
+## Score yourself
+
+After each sample, rate how well you followed it:
+
+| Result | What it means | What to do |
+| --- | --- | --- |
+| Followed it all without lookups | The level is comfortable | Move on to the next sample |
+| Followed the main point, needed one or two lookups | The level is right for learning | Read at this level for a few weeks |
+| Followed only parts of it | The level is too hard for now | Drop back one level and build vocabulary |
+| Could not follow it | The level is well above you | Start two levels lower |
+
+The level where you land in the second or third row is where most of your reading should be.
+
 ## Turning the result into a choice
 
 - **Stumbling on A1 sample:** focus on basic verbs and high-frequency words first.
@@ -59,7 +72,7 @@ Learners often judge difficulty by the first line of a text, which can be simple
 
 ## Where Sorlio fits
 
-Sorlio is an Android app for reading French stories and news at different difficulty levels, with tap-to-look-up vocabulary and saved words. The self-test above is a good way to choose the level to start at. Check the Google Play listing for the current range of material and what your plan includes. We are the makers of Sorlio, so treat that recommendation with the same care as any other.
+Sorlio is an Android app with graded French stories from A1 to C2, so the level you land on in the self-test above maps onto its reading levels. You tap a word for its meaning, save it and review it later. Its news, from official French and EU public sources, is authentic and not graded, so use the stories while you build up to it. Check the Google Play listing for the current features. We are the makers of Sorlio, so treat that recommendation with the same care as any other.
 
 ## Next steps
 

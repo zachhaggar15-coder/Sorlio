@@ -85,4 +85,4 @@ Le plus difficile reste la décision qu'il doit prendre. Son responsable lui a p
 
 ## Continuing at B1
 
-Once you can answer these questions without looking back, the next step is longer texts: news articles, magazine features and stories with several characters. Sorlio is an Android app for reading French stories and news, with tap-to-look-up vocabulary and saved words, so it can supply that next level of reading. Check the Google Play listing for what is available on your plan.
+Once you can answer these questions without looking back, the next step is longer texts: news articles, magazine features and stories with several characters. Sorlio is an Android app with graded stories at B1 and above, classic literature extracts, and news from official French and EU public sources, with tap-to-look-up vocabulary and saved words. That can supply the next level of reading. The news is authentic, formal French rather than graded, so it works best once you are comfortable at B1. Check the Google Play listing for the current features.

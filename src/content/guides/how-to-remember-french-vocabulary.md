@@ -38,6 +38,16 @@ Take *chercher*. On a list it is "to look for". In a sentence it becomes useful:
 
 Now you have the verb, the present tense used for an ongoing action with *depuis*, and an everyday situation you can picture. When you save a word, save the sentence it came from. That sentence is your best memory cue.
 
+### A worked example of a good card
+
+A weak card says only *chercher: to look for*. A better card keeps the sentence, marks the word, and adds one note:
+
+- **Sentence:** *Je cherche mes clés depuis dix minutes.*
+- **Word:** *chercher*, to look for
+- **Note:** takes a direct object with no preposition ("look for" in English needs *for*; French does not)
+
+That note is worth more than the translation, because it fixes a mistake English speakers often make. You could add a second card from another sentence, *Il est allé chercher le pain*, which shows *chercher* meaning "to go and get".
+
 ## Use spaced review
 
 Spaced review means revisiting a word just before you would forget it. A simple schedule works well: review a new word the next day, then after three days, then after a week, then after a few weeks. Each successful recall makes the next gap longer. If you forget a word, bring it back sooner.
@@ -77,4 +87,4 @@ Keep the routine short enough to sustain. Consistency over months matters far mo
 
 ## Where Sorlio fits
 
-Sorlio is an Android app for reading French stories and news. It lets you tap a word while reading, see its meaning in context, save it and review it later. That combines the sentence-based and spaced-review approaches above in one place. We are the makers of Sorlio, so weigh that accordingly. The method works with any reading source and a simple word list.
+Sorlio is an Android app for reading French. It lets you tap a word while reading, see its meaning in the sentence, save it and review saved words with spaced repetition. That combines the sentence-based and spaced-review approaches above in one place. Free use allows 5 new saved words a day, with unlimited review, which suits the advice to keep a small, useful list. Premium removes that cap. We are the makers of Sorlio, so weigh that accordingly. The method works with any reading source and a simple word list.

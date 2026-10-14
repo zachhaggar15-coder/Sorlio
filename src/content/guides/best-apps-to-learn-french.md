@@ -67,7 +67,7 @@ If you like textbooks and want to know exactly what comes next, look for a cours
 
 Reading practice builds comprehension in a way that exercises do not. The key skill is working out meaning from context while knowing enough words to keep going. Apps built around reading typically offer graded stories, imported articles or both. Our [reading-apps comparison](/best-french-reading-apps/) looks at this group in detail.
 
-Sorlio belongs in this category. It is an Android app for reading French stories and news, with tap-to-look-up vocabulary, saved words and listening while reading. It is most useful once you can read simple text, because the reading itself is the main activity. Check the Google Play listing for which content and features are available on your plan.
+Sorlio belongs in this category. It is an Android app with graded French stories from A1 to C2, classic literature extracts, news from official French and EU public sources, and texts you import. You tap a word to see its meaning in the sentence, save it, and review it later. Reading is the main activity, so it works best once you know a little grammar and a few hundred common words. Its news is authentic and formal rather than graded, so beginners should start with the lesson stories. Check the Google Play listing for which features are free and which need Premium.
 
 ## Vocabulary acquisition
 
@@ -94,6 +94,18 @@ Grammar is easier to learn when it is shown in use. Good grammar practice explai
 **Best fit:** intermediate and advanced learners who want to read and listen to real French.
 
 Authentic content means the material native speakers read or hear: news, podcasts, novels and video. The advantage is relevance and variety. The disadvantage is difficulty. Start with content slightly below your level, and use a tool that makes unfamiliar words easy to look up.
+
+## Examples in each category
+
+These are well-known examples, not a ranking. We have not tested them, and plans and features change, so check each product's own site.
+
+| Need | Example products | What to check first |
+| --- | --- | --- |
+| Beginner habit and short lessons | Duolingo, Busuu, Memrise | What is free, and how far the free lessons go |
+| Structured course with grammar | Babbel, Alliance Française courses | Whether explanations are in English and tied to CEFR levels |
+| Speaking and pronunciation | Pimsleur, italki, Preply | Whether you get live feedback, and how it is priced |
+| Spaced-repetition vocabulary | Anki | Whether you need to build your own cards |
+| Reading with word lookup | Sorlio, LingQ, Readlang | Content level, import options, and platform support |
 
 ## How to decide
 

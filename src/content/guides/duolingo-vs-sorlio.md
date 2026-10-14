@@ -43,73 +43,21 @@ Duolingo and Sorlio solve different problems. Duolingo is built around short, st
 
 ## Comparison at a glance
 
-<table>
-<caption>Duolingo and Sorlio compared</caption>
-<thead>
-<tr>
-<th>Area</th>
-<th>Duolingo</th>
-<th>Sorlio</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Teaching approach</th>
-<td>Short, structured lessons built around exercises and a daily streak</td>
-<td>Reading-first: French stories and news, with tap-to-look-up vocabulary</td>
-</tr>
-<tr>
-<th>Target learner</th>
-<td>Beginners and those wanting a daily learning habit</td>
-<td>Learners who can read simple French and want to read more</td>
-</tr>
-<tr>
-<th>Content structure</th>
-<td>Units and lessons in a fixed sequence</td>
-<td>Stories and articles at different difficulty levels, plus texts you import</td>
-</tr>
-<tr>
-<th>Reading practice</th>
-<td>Sentence-level reading within exercises</td>
-<td>Extended reading of full texts</td>
-</tr>
-<tr>
-<th>Vocabulary learning</th>
-<td>Words introduced and reviewed inside lessons</td>
-<td>Words looked up in context, saved and reviewed</td>
-</tr>
-<tr>
-<th>Listening</th>
-<td>Audio within exercises</td>
-<td>Listening while reading</td>
-</tr>
-<tr>
-<th>Grammar</th>
-<td>Introduced through lessons and exercises</td>
-<td>Grammar practice and comprehension exercises are described in the app listing; check current availability</td>
-</tr>
-<tr>
-<th>Free features</th>
-<td>A free version is available; the scope of free access changes, so check the current plan</td>
-<td>Some features are available without payment; the Premium scope is described in the Google Play listing</td>
-</tr>
-<tr>
-<th>Subscriptions</th>
-<td>Paid tiers add features; confirm current pricing on the official site</td>
-<td>Premium features require a subscription or purchase; confirm on the Google Play listing</td>
-</tr>
-<tr>
-<th>Platforms</th>
-<td>Multiple platforms</td>
-<td>Android only</td>
-</tr>
-<tr>
-<th>Long-term study experience</th>
-<td>Builds a daily routine and a sense of progress through lessons</td>
-<td>Builds a reading habit and a personal word bank over time</td>
-</tr>
-</tbody>
-</table>
+**Duolingo and Sorlio compared**
+
+| Area | Duolingo | Sorlio |
+| --- | --- | --- |
+| Teaching approach | Short, structured lessons built around exercises and a daily streak | Reading-first: French stories and news, with tap-to-look-up vocabulary |
+| Target learner | Beginners and those wanting a daily learning habit | Learners who can read simple French and want to read more |
+| Content structure | Units and lessons in a fixed sequence | Graded stories from A1 to C2, classic literature extracts, news from official French and EU public sources, and texts you import |
+| Reading practice | Sentence-level reading within exercises | Extended reading of full texts |
+| Vocabulary learning | Words introduced and reviewed inside lessons | Words looked up in context, saved and reviewed with spaced repetition |
+| Listening | Audio within exercises | Listening while reading, using your device's French text-to-speech voice at adjustable speed |
+| Grammar | Introduced through lessons and exercises | Grammar lessons, comprehension checks and reading practice, free without AI |
+| Free features | A free version is available; the scope of free access changes, so check the current plan | Reading, news, importing, listening, lookups, grammar and non-AI practice are free; 5 new saved words a day, with unlimited review |
+| Subscriptions | Paid tiers add features; confirm current pricing on the official site | Optional Premium: unlimited word saving and AI features, as a monthly subscription through Google Play; no free trial |
+| Platforms | Multiple platforms | Android only |
+| Long-term study experience | Builds a daily routine and a sense of progress through lessons | Builds a reading habit and a personal word bank over time |
 
 ## Teaching approach
 
@@ -137,17 +85,31 @@ Duolingo includes audio in its exercises, which helps with pronunciation and lis
 
 Duolingo introduces grammar through lessons and exercises that show the rule in use. This is one of its strengths for beginners.
 
-Sorlio describes grammar practice and comprehension exercises in its public listing. If grammar explanations are central to how you learn, you may want a dedicated grammar reference or course alongside any app. Check the current app for the exact grammar features available to you.
+Sorlio includes grammar lessons and comprehension checks, and non-AI practice is free. Grammar there supports your reading rather than driving the whole course, so if explanations are central to how you learn, you may want a dedicated grammar reference or course alongside any app.
 
 ## Free features and subscriptions
 
-Both products offer a free entry point. The boundaries between free and paid access differ and change over time, so we have not stated specific prices or limits here. Read the current listing or the official site before you subscribe, and check whether the features you need are included in the plan you are considering.
+Both products offer a free entry point, and the details differ.
+
+For Sorlio, reading, news, importing your own texts, listening, dictionary lookups, grammar and non-AI practice are free, and no account is needed. The one limit you will notice is 5 new saved words a day, though you can review the words you have saved without limit. Premium adds unlimited word saving, AI explanations of words and sentences, AI translations of news and imported texts, and AI paraphrase practice. It is a monthly subscription billed through Google Play, it needs an account, and there is no free trial. The price is shown in Google Play before you buy and can vary by country.
+
+For Duolingo, the scope of free access and the paid tiers change over time, and we have not confirmed the current terms, so check its official site before you subscribe.
 
 ## Long-term study experience
 
 Duolingo is a good habit tool. Its structure and streaks help many people return every day, and it gives a clear sense of progress through a course.
 
 Sorlio is a reading habit tool. Over time you build a personal set of saved words and a sense of how much more French you can now read. The experience is less guided, so it works best for learners who are already motivated to read.
+
+## Where Sorlio is weaker
+
+A fair comparison should say where our product falls short:
+
+- **Android only.** If you use an iPhone, Sorlio is not an option today.
+- **Less guidance.** There is no single fixed course that walks you from zero to a level. You choose what to read.
+- **No speaking practice.** It trains reading, vocabulary and listening, not speaking or pronunciation feedback.
+- **Device voice, not recordings.** Listening uses your phone's text-to-speech voice, which is not the same as recorded native speakers.
+- **News is formal.** It comes from official French and EU public sources, so it is authentic but not written for learners.
 
 ## Which should you choose?
 

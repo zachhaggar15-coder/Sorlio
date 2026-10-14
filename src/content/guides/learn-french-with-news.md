@@ -32,6 +32,17 @@ Start with sources written for learners or for a general audience, and move towa
 
 Look for news written for learners, such as simplified bulletins, and compare how a story is told in the simplified and standard versions. Be cautious with sources that lean heavily on opinion or satire, since their wording can be harder to follow than factual reporting.
 
+### Examples of where to look
+
+These are starting points, not a ranking. Check what each one currently offers.
+
+| Kind of source | Examples | Good for | Watch out for |
+| --- | --- | --- | --- |
+| Slowed news for learners | RFI's "Journal en français facile", TV5Monde's learning pages | A1 to B1 listening and reading | Fewer topics, and it can feel slow after B1 |
+| News written for younger readers | 1jour1actu | Short, clear explanations of current events | Topics and tone aimed at children |
+| General news sites | Major French newspapers and broadcasters | B2 and above, real-world range | Long sentences, assumed background knowledge, paywalls |
+| Official and institutional sites | Government and EU announcements | Formal vocabulary, clear structure | Administrative style that is less like everyday speech |
+
 ## Understanding headlines
 
 Headlines are a good exercise because they are short. Before opening the article, try to guess the story from the headline and any photo. Then read the article and check whether your guess was right.
@@ -92,6 +103,11 @@ Move up when you can read the easier level for overall meaning without stopping 
 
 ## Where Sorlio fits
 
-Sorlio is an Android app for reading French stories and news, with tap-to-look-up vocabulary, saved words and listening while reading. It can be one place to build this routine, particularly if you want the news practice to sit alongside stories in one app. We have not published a full list of news sources or their availability, so check the app and the Google Play listing for what is available on your plan.
+Sorlio has a News section alongside its stories. It is worth knowing exactly what that is:
 
-We are the makers of Sorlio, so this section is written from that position. The method above works with any suitable news source.
+- **Where it comes from:** official French and EU public sources, such as Service-Public.fr, the European Commission and the European Parliament. It is not a selection of commercial newspapers.
+- **How hard it is:** it is authentic, formal French and it is not graded. It suits intermediate readers (around B1 and above) better than beginners, who should start with the graded stories.
+- **What it offers:** the same reading tools as stories. You tap a word for its meaning in the sentence, save it, review it later, and can listen with your device's French voice.
+- **Why it still helps:** institutional French is full of the set phrases this guide recommends learning, such as *en raison de* and *selon*, and it is a good route into reading French from official sources.
+
+If you want general news about sport, culture and politics from newspapers, pair it with a general news site from the table above. We are the makers of Sorlio, so this section is written from that position. The method above works with any suitable news source.

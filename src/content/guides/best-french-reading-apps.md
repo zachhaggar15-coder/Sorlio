@@ -48,69 +48,17 @@ The useful question is not "which app is best?" It is "which app will make me re
 
 The table compares the approach of each product. We have deliberately kept prices and plan names out of it, because they change and we could not confirm them for every product at the time of writing. Check each product's own website or store page before you pay.
 
-<table>
-<caption>Reading-focused French apps: approach at a glance</caption>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Sorlio</th>
-<th>LingQ</th>
-<th>Readlang</th>
-<th>Beelinguapp</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Core approach</th>
-<td>Reading French stories and news, with tap-to-look-up vocabulary in context</td>
-<td>Reading imported and library content, with saved-word tracking</td>
-<td>Reading web pages and texts, with in-page word lookup and flashcards</td>
-<td>Side-by-side or parallel text with audio, for story reading</td>
-</tr>
-<tr>
-<th>Content source</th>
-<td>Built-in French stories and news, plus texts you import (see the app for current options)</td>
-<td>Large library plus your own imports</td>
-<td>Web pages and texts you bring</td>
-<td>Stories with an audio narration and translation</td>
-</tr>
-<tr>
-<th>Vocabulary lookup</th>
-<td>Tap a word while reading</td>
-<td>Tap or highlight to look up and save</td>
-<td>Highlight or click words on a page</td>
-<td>Usually via the parallel text rather than a separate dictionary</td>
-</tr>
-<tr>
-<th>Review of saved words</th>
-<td>Saved words can be reviewed</td>
-<td>Built-in review of saved words</td>
-<td>Flashcard-style review</td>
-<td>Limited compared with dedicated review tools</td>
-</tr>
-<tr>
-<th>Listening</th>
-<td>Listening while reading</td>
-<td>Audio support in the library</td>
-<td>Depends on the source</td>
-<td>Narrated audio is central</td>
-</tr>
-<tr>
-<th>Best beginner fit</th>
-<td>Good once you can read simple text; the reading is more comfortable with a little base</td>
-<td>Good if you can read simple text and want to grow a large word bank</td>
-<td>Good for readers who already find their own material</td>
-<td>Strong for absolute beginners who want audio with text</td>
-</tr>
-<tr>
-<th>Platforms</th>
-<td>Android only</td>
-<td>Check the product site</td>
-<td>Check the product site</td>
-<td>Check the product site</td>
-</tr>
-</tbody>
-</table>
+**Reading-focused French apps: approach at a glance**
+
+| Feature | Sorlio | LingQ | Readlang | Beelinguapp |
+| --- | --- | --- | --- | --- |
+| Core approach | Reading French stories and news, with tap-to-look-up vocabulary in context | Reading imported and library content, with saved-word tracking | Reading web pages and texts, with in-page word lookup and flashcards | Side-by-side or parallel text with audio, for story reading |
+| Content source | Graded stories from A1 to C2, classic literature extracts, news from official French and EU public sources, and texts you import | Large library plus your own imports | Web pages and texts you bring | Stories with an audio narration and translation |
+| Vocabulary lookup | Tap a word while reading | Tap or highlight to look up and save | Highlight or click words on a page | Check the product site |
+| Review of saved words | Saved words are reviewed with spaced repetition | Built-in review of saved words | Flashcard-style review | Check the product site |
+| Listening | Listening while reading, using your device's French text-to-speech voice | Audio support in the library | Depends on the source | Audio narration is part of the story format |
+| Best beginner fit | Starts at A1 with tap-to-look-up help; a little grammar makes it more comfortable | Good if you can read simple text and want to grow a large word bank | Good for readers who already find their own material | Strong for absolute beginners who want audio with text |
+| Platforms | Android only | Check the product site | Check the product site | Check the product site |
 
 <p class="meta">Table descriptions are general and reflect each product's public positioning as we understood it. Where a row says "check the product site", we did not confirm the detail.</p>
 
@@ -122,7 +70,18 @@ The table compares the approach of each product. We have deliberately kept price
 
 **Beelinguapp** is well suited to someone who is just starting with stories. Parallel text and audio let you follow the story without knowing every word, which is a useful way to build confidence early on.
 
-**Sorlio** is a good fit for a learner who wants French reading practice on an Android phone that combines graded stories and news, tap-to-look-up vocabulary, saved words and listening. Its particular focus is learning vocabulary in the context of a sentence you are actually reading, rather than in isolation.
+**Sorlio** is a good fit for a learner who wants French reading practice on an Android phone that combines graded stories, tap-to-look-up vocabulary, saved words and listening. Its particular focus is learning vocabulary in the context of a sentence you are actually reading, rather than in isolation. Because its graded texts run from A1 to C2, you can start with very simple stories and move up without changing tools.
+
+## What to know about Sorlio before you try it
+
+Since we make it, here are the details that matter when you compare it with the others:
+
+- **It is Android only.** There is no iPhone version.
+- **The news is not graded.** News comes from official French and EU public sources, such as Service-Public.fr, the European Commission and the European Parliament. It is authentic, formal French, so it suits intermediate readers better than beginners. It is not a broad selection of commercial newspapers.
+- **Listening uses your device's voice.** Audio is your phone's French text-to-speech voice, with adjustable speed. It is not recorded native-speaker narration.
+- **Free use has one limit that matters.** Reading, news, importing your own texts, listening, dictionary lookups, grammar and non-AI practice are free. You can save 5 new words a day, and you can review saved words without limit.
+- **Premium adds AI features.** These are unlimited word saving, AI explanations of words and sentences, and AI translations of news and imported texts. Premium is a monthly subscription billed through Google Play, with no free trial, and it needs an account.
+- **Word meanings can be uncertain.** The built-in dictionary uses the sentence to choose a meaning, and it labels uncertain results rather than hiding them.
 
 ## Choosing for your situation
 
@@ -130,7 +89,7 @@ The table compares the approach of each product. We have deliberately kept price
 
 **You can read simple French but get stuck on most paragraphs.** This is where a tap-to-look-up approach is most useful. Choose content slightly below your level, where you know about 95 to 98 percent of the words, and look up the rest as you go. Research on reading comprehension suggests that a small number of unknown words per page is manageable, while a high density of them makes reading hard to follow (Hu and Nation, 2000).
 
-**You are intermediate and want to read real French.** Imported articles, novels and news are the next step. LingQ and Readlang are designed for this. Sorlio's news and stories are also useful here if you prefer an app-based routine on Android.
+**You are intermediate and want to read real French.** Imported articles, novels and news are the next step. LingQ and Readlang are designed for this. Sorlio's classic literature extracts, its news from official sources and its import feature also suit this stage if you prefer an app-based routine on Android.
 
 **You need speaking or live conversation.** None of these reading apps replaces speaking practice. Pair reading with a conversation partner, a tutor or a speaking-focused tool.
 
@@ -138,8 +97,8 @@ The table compares the approach of each product. We have deliberately kept price
 
 - None of these apps guarantees a level or an outcome. Reading builds vocabulary and comprehension, but grammar, pronunciation and speaking need their own practice.
 - Free access and paid plans differ between products, and features move around. Verify current details on the product's site or store listing.
-- The feature descriptions in this article reflect what we could verify from public sources at the time of writing. Treat them as a starting point.
+- Our description of Sorlio comes from our own product, so we can speak to it directly. Our descriptions of the other apps are general and were not verified against their current features, so treat them as a starting point and check each product's own site.
 
-## Sources and method
+## Test them yourself
 
-This comparison describes approach and fit, not measured results. We did not run controlled tests of learning outcomes, and we have not published any ranking based on user data. If you want to compare the apps yourself, a good test is to spend a week with each one on the same kind of text and note how often you need to look things up and how much you remember the next day.
+The most reliable comparison is your own. Spend a week with each app on the same kind of text, and note three things: how often you need to look things up, how easily you can keep reading after a lookup, and how many of the saved words you can still recall the next day. Whichever app lets you read the most without losing the thread is the right one for you, whatever any comparison says.

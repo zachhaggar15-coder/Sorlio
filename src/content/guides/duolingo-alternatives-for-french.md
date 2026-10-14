@@ -20,6 +20,7 @@ sources:
   - label: "Council of Europe. Common European Framework of Reference for Languages (CEFR)."
     url: "https://www.coe.int/en/web/common-european-framework-reference-languages"
   - label: "Day, R. and Bamford, J. (1998). Extensive Reading in the Second Language Classroom. Cambridge University Press."
+  - label: "Nation, I.S.P. (2001). Learning Vocabulary in Another Language. Cambridge University Press."
 ---
 
 <aside class="verdict">
@@ -43,7 +44,7 @@ It is worth being clear about what is happening here. The problem is usually not
 
 Much of what short exercises train is recognition. You see a word, you match it to a meaning or pick the right answer from a set. That skill is useful, and it is measurable within a lesson. Reading comprehension is different. It means working out a sentence you have never seen, using the words you know, the grammar you have absorbed and the context around the sentence.
 
-Researchers have long distinguished between learning words in isolation and meeting them repeatedly in running text. Reading exposes you to the same words in different sentences, which helps you recognise them when the context changes. It also shows you how French builds sentences over several lines, something a single exercise rarely does.
+Vocabulary research has long distinguished between learning words in isolation and meeting them repeatedly in running text (Nation, 2001). Reading exposes you to the same words in different sentences, which helps you recognise them when the context changes. It also shows you how French builds sentences over several lines, something a single exercise rarely does.
 
 A simple test helps. Pick a short paragraph from a French news article written for adults. Can you say roughly what it is about, and identify the key verbs? If not, your recognition skills may be ahead of your comprehension, and reading practice is the next step.
 
@@ -72,7 +73,16 @@ There is no single alternative to Duolingo. The main categories are:
 - **Structured courses.** These explain grammar in depth and follow a syllabus. They suit people who want to understand why a structure works.
 - **Speaking tools and tutors.** These focus on output and pronunciation, which reading apps do not cover.
 
-Sorlio sits in the reading category. It is an Android app for reading French stories and news, with tap-to-look-up vocabulary in context, saved words for review and listening while you read. For a learner who has outgrown lesson-style exercises and wants more reading, it is an appealing next step. It is not a replacement for a course, and it does not teach speaking.
+These categories include products you may already know. They are examples, not a ranking, and we have not tested them.
+
+| If you want | Example products | Check before you commit |
+| --- | --- | --- |
+| A structured course with grammar explained | Babbel, Busuu | What the free version includes, and how lessons are paced |
+| Vocabulary review you control | Anki, Memrise | Whether you build the content or it is supplied |
+| A speaking partner or tutor | italki, Preply | Price per lesson and whether lessons are one-to-one |
+| Reading with word lookup | Sorlio, LingQ, Readlang | Content level, import options and platform support |
+
+Sorlio sits in the reading category. It is an Android app with graded stories from A1 to C2, classic extracts, news from official French and EU public sources, and texts you import. You tap a word to see its meaning, save it and review it later, and you can listen with your device's French voice. For a learner who has outgrown lesson-style exercises and wants more reading, it is an appealing next step. It is not a replacement for a course, and it does not teach speaking.
 
 ## When continuing with Duolingo makes sense
 

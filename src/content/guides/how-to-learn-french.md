@@ -124,10 +124,16 @@ These are starting points. Adjust them to your level and schedule.
 
 ## Where Sorlio fits
 
-Sorlio is an Android app for reading French stories and news, looking up words as you read, saving them and reviewing them. It fits best in the reading part of a routine, once you can handle simple text. It does not replace a grammar course or conversation practice, and we recommend pairing it with those as your level grows.
+Sorlio is an Android app for reading French with graded stories from A1 to C2, classic extracts, news from official French and EU public sources, and texts you import. You tap words to see their meaning, save them, and review them with spaced repetition. It fits the reading and vocabulary part of a routine. It does not replace a grammar course or conversation practice, and we recommend pairing it with those as your level grows.
 
 A balanced routine might look like this: a course or grammar reference for explanations, a short daily vocabulary review, two or three reading sessions a week in Sorlio or another reading source, and a regular speaking session. The app is one component, not the whole method.
 
-## Final thought
+## Your first week
 
-You do not need a perfect plan. You need a plan you will keep for months. Set a goal you can measure, use a small set of resources, and return to French every day, even for a short time.
+Do these five things before you plan anything else:
+
+1. **Write your goal** in one sentence, with a level and a date.
+2. **Pick your three resources:** one for explanations, one for reading, one for listening.
+3. **Block a fixed time** each day, even ten minutes, and put it in your calendar.
+4. **Do a level check** on a short text (see our [reading level guide](/check-your-french-reading-level/)) so you start at the right difficulty.
+5. **Review on day seven.** Note what you finished and what you skipped, and shrink the plan if it was too big.

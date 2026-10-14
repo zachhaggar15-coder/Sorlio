@@ -88,13 +88,20 @@ Fluency is the ability to read without stopping to decode every word. It grows t
 
 ## Progression from A1 and A2 towards B1 and B2
 
-Early reading should be simple, with short sentences, familiar vocabulary and a clear story. As your vocabulary grows, move to news articles for learners, then to graded stories with more complex plots and longer sentences, and finally to authentic texts written for French readers. Each step should feel challenging but not overwhelming.
+Early reading should be simple, with short sentences, familiar vocabulary and a clear story. As your vocabulary grows, move to graded stories with more complex plots and longer sentences, then to news for learners, and finally to authentic texts written for French readers. Each step should feel challenging but not overwhelming.
+
+| Level | What to read | What you are training |
+| --- | --- | --- |
+| A1 to A2 | Very short graded stories with familiar words | Following a simple sequence, and building the first few hundred words |
+| B1 | Longer graded stories and simple news items | Linking words, past tenses and keeping track of who does what |
+| B2 | Classic extracts, feature articles and authentic news | Idiom, abstract vocabulary and longer arguments |
+| C1 and above | Novels, essays and specialist writing | Style, nuance and reading at natural speed |
 
 A realistic expectation is that intermediate reading takes many months of steady practice. Reading a large volume of material is more important than finding the perfect text.
 
 ## How Sorlio supports this method
 
-Sorlio is built around the same ideas. It offers French stories and news at different difficulty levels, lets you tap a word to look it up while reading, and lets you save words and review them later. Listening while reading gives you spoken French alongside the text. Use it as one source of reading material, alongside books or articles you choose yourself.
+Sorlio is built around the same ideas. It offers graded French stories from A1 to C2, classic literature extracts, and news from official French and EU public sources. You tap a word to see its meaning in the sentence, save it, and review saved words with spaced repetition. Listening while reading uses your device's French text-to-speech voice, with adjustable speed. The news is authentic and formal rather than graded, so use the stories for the early levels. Use it as one source of reading material, alongside books or articles you choose yourself.
 
 We are the makers of Sorlio, so weigh this section accordingly. The method works with any good reading source, and we would encourage you to use whatever material keeps you reading.
 
