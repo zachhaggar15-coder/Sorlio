@@ -4,7 +4,7 @@ import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
 const DIST = new URL('../dist/', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1');
-const ORIGIN = (process.env.PUBLIC_SITE_URL || 'http://localhost:4321').replace(/\/+$/, '');
+const ORIGIN = (process.env.PUBLIC_SITE_URL || 'https://sorlio.vercel.app').replace(/\/+$/, '');
 const EXPECTED_NOINDEX = process.env.SITE_NOINDEX === 'true';
 
 const EXPECTED_ARTICLES = [
@@ -38,6 +38,9 @@ const EXPECTED_ARTICLES = [
   'french-pronunciation-patterns',
   'a1-french-reading-practice',
   'b2-french-reading-practice',
+  'french-train-timetable-reading-practice',
+  'french-email-reading-practice',
+  'french-context-clues-exercises',
 ];
 const EXPECTED_PAGES = [
   '/',

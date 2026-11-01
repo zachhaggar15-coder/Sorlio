@@ -5,7 +5,7 @@ category: practice-resources
 searchIntent: practice
 primaryKeyword: A2 French reading practice
 publishedDate: 2026-10-14
-updatedDate: 2026-10-14
+updatedDate: 2026-11-01
 featured: true
 order: 70
 productClaimsVerified: false
@@ -101,3 +101,5 @@ Elles parlent de leurs vacances. Claire va partir en Bretagne le mois prochain. 
 ## Continuing with reading
 
 Short practice passages like this one are useful, but a steady diet of them gets repetitive quickly. Once you can follow this passage comfortably, move on to longer simple stories and A2 news. Sorlio is an Android app with graded French stories from A1 to C2, so you can carry on at A2 and move up when the stories feel easy. You tap a word for its meaning in the sentence, save it and review it later, and you can listen with your device's French voice. Check the Google Play listing for the current features.
+
+For practical reading with times and a station notice, try the [French train timetable exercise](/french-train-timetable-reading-practice/).

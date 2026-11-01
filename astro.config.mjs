@@ -2,9 +2,8 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// The production domain has not been chosen yet. Set PUBLIC_SITE_URL in
-// Vercel (or your shell) once it is known; localhost is used otherwise.
-const siteUrl = (process.env.PUBLIC_SITE_URL || 'http://localhost:4321').replace(/\/+$/, '');
+// Keep the public deployment canonical even when the build environment has no override.
+const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://sorlio.vercel.app').replace(/\/+$/, '');
 
 /**
  * Wrap every Markdown table in a scroll container so wide comparison tables

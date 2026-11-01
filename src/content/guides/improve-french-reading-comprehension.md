@@ -5,7 +5,7 @@ category: learning-method
 searchIntent: informational
 primaryKeyword: improve French reading comprehension
 publishedDate: 2026-10-14
-updatedDate: 2026-10-14
+updatedDate: 2026-11-01
 featured: false
 order: 140
 productClaimsVerified: false
@@ -84,3 +84,5 @@ These strategies work best on text where you know most of the words. If you are 
 ## Where Sorlio fits
 
 Sorlio is an Android app for reading French, with graded stories from A1 to C2, tap-to-look-up vocabulary, saved words, and listening with your device's French voice. Its value for comprehension is that you can stay in the text, check only the words that block you, and return to the same passage. We are the makers of Sorlio, so weigh that accordingly. The strategies above work with any reading source you can understand most of.
+
+Put these strategies into practice with the [context clues exercises](/french-context-clues-exercises/).

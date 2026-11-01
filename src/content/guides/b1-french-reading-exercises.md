@@ -5,7 +5,7 @@ category: practice-resources
 searchIntent: practice
 primaryKeyword: B1 French reading exercises
 publishedDate: 2026-10-14
-updatedDate: 2026-10-14
+updatedDate: 2026-11-01
 featured: false
 order: 110
 productClaimsVerified: false
@@ -86,3 +86,5 @@ Le plus difficile reste la décision qu'il doit prendre. Son responsable lui a p
 ## Continuing at B1
 
 Once you can answer these questions without looking back, the next step is longer texts: news articles, magazine features and stories with several characters. Sorlio is an Android app with graded stories at B1 and above, classic literature extracts, and news from official French and EU public sources, with tap-to-look-up vocabulary and saved words. That can supply the next level of reading. The news is authentic, formal French rather than graded, so it works best once you are comfortable at B1. Check the Google Play listing for the current features.
+
+For a different B1-style task, read an [email about a change of plans](/french-email-reading-practice/).

@@ -33,7 +33,7 @@ npm test          # check, lint, build and verify in order
 PUBLIC_SITE_URL=https://your-domain.example npm run build
 ```
 
-`PUBLIC_SITE_URL` sets every canonical URL, Open Graph URL, sitemap entry and the `robots.txt` sitemap line. If it is not set, the build uses `http://localhost:4321`, which is correct for local work and wrong for production. **Always set it for a production build.**
+`PUBLIC_SITE_URL` sets every canonical URL, Open Graph URL, sitemap entry and the `robots.txt` sitemap line. If it is not set, builds use the current public site, `https://sorlio.vercel.app`. Set it explicitly when the canonical domain changes. For a local canonical, set it to `http://localhost:4321`.
 
 For a preview or staging deployment that must not be indexed, set `SITE_NOINDEX=true`. This adds `noindex` to every page and disallows all crawling in `robots.txt`. Do not set it in production.
 
